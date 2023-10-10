@@ -1,0 +1,4 @@
+- If you want ti cache a function use ( useCallback ) , if you want to cache a value provided from a function use ( useMemo )
+
+
+- current: Initially, it’s set to the initialValue you have passed. You can later set it to something else. If you pass the ref object to React as a ref attribute to a JSX node, React will set its current property.

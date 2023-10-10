@@ -1,0 +1,18 @@
+@import url("./components/Subscribe/subscribe.scss");
+
+:root {
+  --main-shadow: 0 11px 16px hsl(0deg 0% 0% / 5%);
+  --primary-color: #0967d2;
+  --secondary-color: #d0e3ff;
+  --gray-color: #537ebf;
+  --section-color: #f0f4f8;
+  --card-border-radius: 25px;
+  --card-box-shadow: 0 6px 10px hsl(0deg 0% 0% / 10%);
+  --card-border-color: hsl(210deg 30% 80% / 69%);
+  --card-border-color-hover: #b2d1ff;
+  --footer-bg: #01337d;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}

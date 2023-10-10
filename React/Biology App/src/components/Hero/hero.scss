@@ -1,0 +1,25 @@
+:root {
+  --main-shadow: 0 11px 16px hsl(0deg 0% 0% / 5%);
+  --primary-color: #0967d2;
+  --secondary-color: #d0e3ff;
+  --gray-color: #537ebf;
+}
+
+.hero {
+  border-bottom: 1px solid var(--secondary-color);
+  .hero-title {
+    color: var(--primary-color);
+    font-size: 48px;
+    line-height: 70px;
+  }
+  p {
+    color: var(--gray-color);
+    font-size: 24px;
+    width: 600px;
+    line-height: 35px;
+  }
+  .landing {
+    background-image: url("../../assets/landing2-01.jpg");
+    background-size: cover;
+  }
+}

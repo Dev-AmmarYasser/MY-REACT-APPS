@@ -1,0 +1,32 @@
+export default => allow us to import components with any name we want
+
+export const Greet = () => <h1>Hello World !</h1>(Here You Have To import it with the same name)
+
+- When you import a named export , tou have to put it inside curly braces which is known as the  constant
+
+- The extends keyword is used in class declarations or class expressions to create a class that is a child of another class.
+
+- We import react inside jsx files because jsx transforms our code into react.createElement .
+
+- class => className
+
+- for => htmlFor
+
+- Camel Case Property Convention
+
+- Properties Can't Be Changed (immutable)
+
+
+
+  increase() {
+    this.setState(
+      {
+        count: this.state.count + 1,
+      },
+      () => console.log(this.state.count) // In this line there is an callback function that returns the updated value 
+    );
+    console.log(this.state.count); // In this line there is an sync function that returns the updated value delayed by one , because the setState Function is async Function 
+  }
+
+
+- When you use arrow function as an event handler you have to put the braces after function

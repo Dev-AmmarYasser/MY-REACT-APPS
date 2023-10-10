@@ -1,0 +1,20 @@
+:root {
+  --main-shadow: 0 11px 16px hsl(0deg 0% 0% / 5%);
+  --primary-color: #0967d2;
+  --secondary-color: #d0e3ff;
+}
+
+nav {
+  box-shadow: var(--main-shadow);
+  position: relative;
+  z-index: 6000;
+  a {
+    color: var(--primary-color);
+  }
+  a.link {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    font-family: "Open Sans", sans-serif;
+    color: var(--primary-color);
+  }
+}

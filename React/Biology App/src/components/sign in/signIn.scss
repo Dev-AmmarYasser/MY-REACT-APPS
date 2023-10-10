@@ -1,0 +1,65 @@
+.sign-in {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+
+  .bg {
+    position: absolute;
+    font-size: 600px;
+    transform: rotate(45deg);
+    bottom: -200px;
+    color: hsl(212deg 92% 43% / 15%);
+  }
+
+  .bg-2 {
+    position: absolute;
+    font-size: 600px;
+    transform: rotate(45deg);
+    top: -200px;
+    right: 0;
+    color: hsl(212deg 92% 43% / 15%);
+  }
+
+  background-color: var(--section-color);
+  form {
+    // height: 555px;
+    box-shadow: var(--card-box-shadow);
+    width: 515px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: var(--card-border-radius);
+    h3 {
+      color: var(--primary-color);
+    }
+    label {
+      font-size: 19px;
+      font-weight: bold;
+      color: var(--primary-color);
+    }
+    input {
+      background-color: var(--section-color);
+      caret-color: var(--primary-color);
+      &::placeholder {
+        color: var(--gray-color);
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+    a {
+      color: var(--primary-color);
+    }
+    a.sign {
+      background-color: var(--primary-color);
+      text-align: center;
+      padding: 15px;
+      color: #fff;
+      transition: 0.3s;
+      &:hover {
+        background-color: #0858b4;
+      }
+    }
+  }
+}
